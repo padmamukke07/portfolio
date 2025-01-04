@@ -1,0 +1,223 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords"
+    content="Reprise Responsive web template, Bootstrap Web Templates" />
+  <title>Padma Personal Website</title>
+  <link href="//fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="//fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+
+
+
+    
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header id="site-header" class="header fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg stroke">
+        <a class="navbar-brand mr-xl-5 mr-lg-3" href="index.html">
+          <h2 style="color: #e83695;">PADMA</h2>
+        </a>
+        <!-- if logo is image enable this   
+      <a class="navbar-brand" href="#index.html">
+          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+      </a> -->
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Achievments.html">Achievments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Projects.html">Projects</a>
+            </li>
+            
+            <li class="nav-item mr-lg-5">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+             
+          </ul>
+
+        </div>
+        <!-- toggle switch for light and dark theme -->
+        <div class="mobile-position">
+          <nav class="navigation">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <div class="mode-container">
+                  <i class="gg-sun"></i>
+                  <i class="gg-moon"></i>
+                </div>
+              </label>
+            </div>
+          </nav>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
+      </nav>
+    </div>
+  </header>
+  <!-- //header -->
+  <!--/breadcrumb-bg-->
+  <div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
+    <div class="container pt-lg-5 pt-md-3 p-lg-4 my-lg-3">
+      <ul class="breadcrumbs-custom-path pt-5 mt-4 text-center">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Projects </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+<!---Project2 Section--->
+<section class="w3l-index3" id="about">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="position-relative">
+                        <img src="assets/images/soundwave.PNG" alt="" class="radius-image img-fluid" height="400px;">
+                    </div>
+                </div>
+                <div class="col-lg-8 mt-lg-0 mt-5">
+                    <h1 class="title-small mb-2">Soundwave Music Store</h1>
+                    
+                    <p class="mt-4">I have created Soundwave Music Store Project. The Project is about the  listening the song after login it is web based application we used PHP as backend</p>
+                    <p><br><b>TOOLS AND TECHONOLOGY USED :-</b>
+                      <br> Text Editor : Sublime Editor
+                      <br> Browser      : Microsoft Edge Browser, Google Chrome Browser
+                      <br> Languages   : PHP, HTML, CSS, JavaScript
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Project2 Section-->
+
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+  <!-- Footers-14 -->
+  <footer class="w3l-footers-14 py-5">
+    <div class="container py-md-5 py-sm-3">
+      
+      <div class="row footers14-top no-gutters">
+        <div class="col-lg-6 footer14-nav-left">
+          <ul class="footer14-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Achievments.html">Achievments</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="footers14-bottom d-flex">
+        <div class="copyright">
+          <p>© 2024 Reprise. All RIghts Reserved. Design by <a href="#URL">Padma</a></p>
+        </div>
+        <div class="language-select d-flex">
+          <span class="fa fa-language" aria-hidden="true"></span>
+          <select>
+            <option>English</option>
+            <option>Estonina</option>
+            <option>Deutsch</option>
+            <option>Nederlan;ds</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      &uarr;
+    </button>
+
+</body>
+</html>
+
+</body>
+</html
